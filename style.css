@@ -17,6 +17,10 @@ h3 {
   color: black;
 }
 
+h5 {
+  text-decoration: underline;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -48,12 +52,6 @@ p {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
   }
 }
 
@@ -97,5 +95,9 @@ td {
 
 .cv-titles {
   padding: 45px;
+  text-align: justify;
+}
+
+.cv-contents {
   text-align: justify;
 }
