@@ -7,13 +7,9 @@ body {
 }
 
 h1 {
-  color: #005542;
+  color: #EFC7CF;
   font-family: 'Special Elite', cursive;
   /*text-align: center;*/
-}
-
-h5 {
-  text-decoration: underline;
 }
 
 p {
@@ -79,7 +75,7 @@ td {
   }
 
 .cv-titles {
-  padding: 45px;
+  padding: 30px;
   text-align: justify;
 }
 
