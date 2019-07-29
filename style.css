@@ -1,13 +1,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color : grey;
+  color : #494E5F;
   font-size: medium;
   line-height: normal;
 }
 
 h1 {
-  color: #EFC7CF;
+  color: #F7A192;
   font-family: 'Special Elite', cursive;
 }
 
@@ -21,12 +21,18 @@ p {
   text-align: center;
 }
 
+.img-linea-gradient-background {
+  background: linear-gradient(#FFE7D4, #F8A293) !important;
+  width: 220px;
+  height: 220px;
+  border-radius: 1000px;
+  padding: 10px;
+}
+
 #profile-avatar {
   border-radius: 150px;
   width: 200px;
   height: 200px;
-  padding: 20px;
-  margin: 0 auto;
 }
 
 li {
@@ -36,7 +42,7 @@ li {
 }
 
 a {
-  color: #005542;
+  color: #F7A192;
   text-decoration: none;
 }
 
@@ -50,7 +56,7 @@ td {
 }
 
 .link-to-le-wagon {
-  color: #005542;
+  color: #F7A192;
   font-weight: bold;
 }
 
@@ -69,5 +75,13 @@ td {
 }
 
 .mark {
-  background-color: #EFC7CF;
+  background-color: #FFE7D4;
+}
+
+.first-col {
+  border-right: 1px dashed grey;
+}
+
+.second-col {
+  border-left: 1px dashed grey;
 }
