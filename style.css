@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: #F7A192;
+  color: #D98A75;
   font-family: 'Special Elite', cursive;
 }
 
@@ -28,7 +28,7 @@ li {
 }
 
 a {
-  color: #F7A192;
+  color: #D98A75;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ td {
 }
 
 .link-to-le-wagon {
-  color: #F7A192;
+  color: #D98A75;
   font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ td {
 }
 
 .mark {
-  background-color: #FFE7D4;
+  background-color: #E8CFBA;
 }
 
 .first-col {
@@ -75,7 +75,7 @@ td {
 
 
 .skill-box {
-  border: 2px solid #FFE7D4;
+  border: 2px solid #E8CFBA;
   border-radius: 50px;
   background-color: white;
   padding: 5px;
