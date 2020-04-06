@@ -208,17 +208,24 @@ span {
   color: white;
 }
 
-.portfolio {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 20px;
-  grid-gap: 16px;
-}
-
 /*les écrans de largeur inférieure à 768 pixels*/
-@media(max-width: 768px){
-  .cards{
-  width: 90%;
-  grid-template-columns: 1fr;
+@media(min-width: 375px){
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    grid-gap: 16px;
   }
 }
+
+@media(min-width: 1005px){
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    grid-gap: 16px;
+  }
+}
+
+
+
