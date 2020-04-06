@@ -209,7 +209,7 @@ span {
 }
 
 /*les écrans de largeur inférieure à 768 pixels*/
-@media(min-width: 400px){
+@media(min-width: 500px){
   .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr;
