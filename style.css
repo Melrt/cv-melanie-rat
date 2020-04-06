@@ -214,3 +214,11 @@ span {
   margin: 20px;
   grid-gap: 16px;
 }
+
+/*les écrans de largeur inférieure à 768 pixels*/
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
