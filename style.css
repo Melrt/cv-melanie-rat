@@ -4,11 +4,14 @@ body {
   color : #494E5F;
   font-size: medium;
   line-height: normal;
+  margin: 0px;
 }
 
 h1 {
-  color: #D98A75;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: 3px 3px #DEE3DC;
+  font-size: 55px;
 }
 
 p {
@@ -17,24 +20,16 @@ p {
 
 .card {
   border: 1px solid white;
-  padding: 20px;
   text-align: center;
 }
 
-li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0px 20px;
-}
-
 a {
-  color: #D98A75;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: grey;
 }
 
 td {
@@ -49,35 +44,173 @@ td {
 .link-to-le-wagon:hover {
     transition-duration: 1s;
     font-size: 18px;
-  }
-
-.cv-titles {
-  padding: 30px;
-  text-align: justify;
 }
+
 
 .cv-contents {
   text-align: justify;
+  padding: 15px;
 }
 
 .mark {
   background-color: #E8CFBA;
 }
 
-.first-col {
-  border-right: 1px dashed grey;
-}
-
 .second-col {
   border-left: 1px dashed grey;
 }
 
-
-
 .skill-box {
-  border: 2px solid #E8CFBA;
+  /*border: 2px solid #E8CFBA;*/
   border-radius: 50px;
   background-color: white;
   padding: 5px;
   margin: 3px;
+}
+
+.experiences-part {
+  background-color: #F7F6F4;
+  /*margin: 0px;*/
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.formations-part {
+  background-color: #F7F6F4;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.experience-part-content {
+  margin-right: 40px;
+}
+
+.formation-part-content {
+  margin-right: 40px;
+}
+
+.skills-part {
+  padding: 15px;
+  max-height: 230px;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  /*overflow:auto;*/
+  padding-left: 126px;
+}
+
+.skills-part .thread-line {
+  height: 66px;
+}
+
+
+.test-skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.contact {
+  width: 40%;
+  padding: 60px 30px 0px 30px;
+}
+
+.test {
+  display: flex;
+}
+
+/*NEW CSS */
+
+.banner {
+  background-color: #E8CFBA;
+  width: 100vw;
+  height: 200px;
+}
+
+.banner-content {
+  display: flex;
+  position: absolute;
+  top: 85px;
+  left: 65px;
+}
+
+.banner-content img {
+  margin-right: 40px;
+}
+
+.banner-content h1 {
+  margin-top: 30px;
+}
+
+.sub-banner {
+  padding: 20px 30px 30px 305px;
+  text-align: justify;
+}
+
+.contact-link {
+  text-align: justify;
+  padding: 0px;
+}
+
+.contact-link li {
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px ;
+}
+
+.thread {
+  margin-top: 20px;
+}
+
+.thread p {
+  writing-mode: vertical-rl;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+.thread-line {
+  border-right: 2px solid #494E5F;
+  height: 70%;
+  margin-right: 27px;
+}
+
+span {
+  background-image: linear-gradient(#DEE3DC 0%, #DEE3DC 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.4em;
+  background-position: 0 88%;
+  font-weight: bold;
+  font-size:20px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  border-radius: 0px;
+  padding: 5px 30px;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+  grid-gap: 16px;
 }
